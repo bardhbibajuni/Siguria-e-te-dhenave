@@ -1,4 +1,3 @@
-
 import tkinter as tk
 import ast
 from encrypt import encrypt
@@ -33,6 +32,30 @@ window.title("Book Cipher App")
 window.geometry("600x550")
 window.configure(bg="#0f172a")
 
+# ================= HEADER =================
+header = tk.Label(
+    window,
+    text="🔐 BOOK CIPHER",
+    font=("Arial", 24, "bold"),
+    bg="#0f172a",
+    fg="#38bdf8"
+)
+header.pack(pady=15)
+
+
+# ================= INPUT =================
+input_label = tk.Label(
+    window,
+    text="Shkruaj mesazhin ose kodin:",
+    font=("Arial", 12),
+    bg="#0f172a",
+    fg="white"
+)
+input_label.pack()
+
+
+input_box = tk.Text(window, height=5, width=60, font=("Arial", 11))
+input_box.pack(pady=10)
 
 
 
