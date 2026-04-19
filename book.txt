@@ -1,0 +1,5 @@
+Ky projekt eshte per kriptografi dhe siguri te dhenave
+book cipher eshte nje metode e thjeshte enkriptimi
+ne kete tekst mund te testohen fjale te ndryshme
+programi perdor pozicionet e fjaleve ne tekst
+ky eshte nje shembull per projekt shkolle ne programim
