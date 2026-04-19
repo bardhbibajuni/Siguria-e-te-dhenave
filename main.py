@@ -26,9 +26,5 @@ def load_book():
 
 book_index, lines = load_book()
 
-# ================= WINDOW =================
-window = tk.Tk()
-window.title("Book Cipher App")
-window.geometry("600x550")
-window.configure(bg="#0f172a")
+
 
